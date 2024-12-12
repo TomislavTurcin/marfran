@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marfran/static/css/main.f262f066.css",
-    "main.js": "/marfran/static/js/main.85c78897.js",
+    "main.css": "/marfran/static/css/main.271ba111.css",
+    "main.js": "/marfran/static/js/main.d5bbea08.js",
     "static/js/453.314f1fe0.chunk.js": "/marfran/static/js/453.314f1fe0.chunk.js",
     "static/media/texture.jpg": "/marfran/static/media/texture.825190cd9083679b7d8a.jpg",
     "static/media/drvogodovi.jpg": "/marfran/static/media/drvogodovi.f1307a55dd9e5fda4a8e.jpg",
@@ -10,12 +10,12 @@
     "static/media/hrast.jpg": "/marfran/static/media/hrast.1f525caca86584a01f90.jpg",
     "static/media/jasen.jpg": "/marfran/static/media/jasen.86195c164f8cba7b5486.jpg",
     "index.html": "/marfran/index.html",
-    "main.f262f066.css.map": "/marfran/static/css/main.f262f066.css.map",
-    "main.85c78897.js.map": "/marfran/static/js/main.85c78897.js.map",
+    "main.271ba111.css.map": "/marfran/static/css/main.271ba111.css.map",
+    "main.d5bbea08.js.map": "/marfran/static/js/main.d5bbea08.js.map",
     "453.314f1fe0.chunk.js.map": "/marfran/static/js/453.314f1fe0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f262f066.css",
-    "static/js/main.85c78897.js"
+    "static/css/main.271ba111.css",
+    "static/js/main.d5bbea08.js"
   ]
 }
