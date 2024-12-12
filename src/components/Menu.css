@@ -1,0 +1,196 @@
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap:20px; /* Space between main menu items */
+    width: 100%;
+    font-family: 'Goblin One', 'Notable';
+  }
+  
+  .menu li {
+    position: relative;
+    display: inline-block; /* Ensures inline layout */
+    position: relative; /* Keeps items in place during scaling */
+    width:auto; /* Fixed height ensures the layout stays static */
+  }
+  
+  .menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    padding-top: 10px;
+    
+  }
+  
+  .dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    top: 100%; /* Position it below the parent menu item */
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.418);
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    z-index: 10;
+    min-width: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    max-height: auto;
+  }
+  
+  .dropdown-menu li {
+    padding: 5px 1px;
+    display: flex; /* Use flexbox to handle multiple <a> tags */
+    flex-direction: column; /* Ensure <a> tags stack vertically */
+    gap: 5px; /* Add space between the links */
+  }
+  
+  .dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+    display: block; /* Ensures each link takes the full width */
+  }
+  
+  .dropdown-menu li a:hover {
+    color: #ffffff;
+    text-decoration: underline red;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block; /* Show the dropdown on hover */
+    
+  }
+  
+  .menu a:hover {
+    
+    color: #000000; /* Change text color */
+  }
+
+  a[href="#home"] {
+    color: rgb(255, 255, 255); /* Example: Change the text color to red */
+    font-size: 2rem; /* Example: Increase the font size */
+    text-decoration: underline; /* Example: Add underline */
+  }
+  
+  a[href="#home"]:hover{
+    color:#ffffff
+  }
+  nav {
+    position: fixed; 
+    z-index: 9999;
+    margin-top: 0px; /* Adds space between h1 and menu */
+    height: 80px; /* Set a fixed height to prevent shifting */
+    width: 100%;
+    background-color:rgba(98, 116, 69, 0.699) ;
+    border: 2px,solid, black;
+    box-shadow: 2px 10px 40px 25px rgba(0, 0, 0, 0.466);
+  }
+
+
+  /*za mobitel*/
+
+/* Add this to Menu.css */
+@media (max-width: 768px) {
+  .menu {
+      flex-direction: r; /* Stack menu items vertically */
+      align-items: flex-start; /* Align items to the left */
+      gap: 1px; /* Reduce spacing */
+      
+  }
+  .menu li {
+      width: 80%; /* Full width for better usability */
+  }
+  nav {
+      height: 50px; /* Allow height to adjust based on content */
+  }
+
+  .menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 0px;
+    padding-top: 2px;
+    
+  }
+
+  .dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    top: 220%; /* Position it below the parent menu item */
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.418);
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    z-index: 10;
+    min-width: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    max-height: auto;
+  }
+  
+  .dropdown-menu li {
+    padding: 2px 1px;
+    display: flex; /* Use flexbox to handle multiple <a> tags */
+    flex-direction: column; /* Ensure <a> tags stack vertically */
+    gap: 2px; /* Add space between the links */
+  }
+  .dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    display: block; /* Ensures each link takes the full width */
+  }
+
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap:10px; /* Space between main menu items */
+    width: 100%;
+    font-family: 'Goblin One', 'Notable';
+  }
+  
+  .menu li {
+    position: relative;
+    display: inline-block; /* Ensures inline layout */
+    position: relative; /* Keeps items in place during scaling */
+    width:auto; /* Fixed height ensures the layout stays static */
+  }
+  
+  nav {
+    position: fixed; 
+    z-index: 9999;
+    margin-top: 0px; /* Adds space between h1 and menu */
+    height: 60px; /* Set a fixed height to prevent shifting */
+    background-color:rgba(98, 116, 69, 0.699) ;
+    border: 2px,solid, black;
+    box-shadow: 2px 10px 40px 25px rgba(0, 0, 0, 0.466);
+    max-width:max-content;
+  }
+    
+  a[href="#home"] {
+    color: rgb(255, 255, 255); /* Example: Change the text color to red */
+    font-size: 1rem; /* Example: Increase the font size */
+    text-decoration: underline; /* Example: Add underline */
+  }
+
+  .menu a:hover {
+    
+    color: #ffffff; /* Change text color */
+  }
+
+
+
+
+
+
+
+}
+

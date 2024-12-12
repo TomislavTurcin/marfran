@@ -1,0 +1,106 @@
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 440px; /* Fixed height for the slideshow container */
+    margin-top:0px;
+    margin-bottom:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 4, 4, 0); /* Optional: for overlay */
+    border-radius: 30px;
+  }
+  
+  .image-container {
+    position: relative; /* Required to position name inside the container */
+    width: 75%; /* Keep this the same size as the image */
+    height: 100%; /* Full height of the slideshow container */
+  }
+  
+  .slideshow-image {
+    width: 85%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out; /* Smooth fade-in/out transition */
+    opacity: 0; /* Initially hidden */
+    border: 1px solid rgb(255, 255, 255); /* White border around the image */
+    border-radius: 42px; /* Slightly curved corners */
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 1); /* Shadow around the image */
+  }
+  
+  .fade-in {
+    opacity: 1; /* Make image visible */
+  }
+  
+  .fade-out {
+    opacity: 0; /* Fade out image */
+  }
+  
+  .image-name {
+    font-family: 'Goblin One', 'Notable';
+    position: absolute;
+    bottom: 3%; /* Position the name 3% from the bottom */
+    right: 10%; /* Position the name 2% from the right */
+    width: 100px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+    font-size: 1.7rem; /* Adjust font size */
+    color: rgb(255, 255, 255);
+    font-weight: none; /**/
+    background-color: rgba(98, 116, 69, 0.568); /* Dark background to ensure readability */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+    padding: 5px; /* Optional: Adjust padding */
+    border: 2px solid rgb(36, 43, 25);
+    border-radius: 10px;
+    z-index: 1; /* Ensures the name appears above the image */
+    overflow: hidden; /* Prevents overflowing text */
+    text-overflow: ellipsis; /* Adds "..." if the text overflows */
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+  
+  /*za mobitel*/
+  /* Add this to Slideshow.css */
+@media (max-width: 768px) {
+  .slideshow {
+      height: 250px; /* Adjust slideshow height */
+  }
+  .slideshow-image {
+      width: 100%; /* Ensure images fit smaller widths */
+  }
+  .image-name {
+      font-size: 1.2rem; /* Reduce font size of name overlay */
+  }
+
+  .image-name {
+    font-family: 'Goblin One', 'Notable';
+    position: absolute;
+    bottom: 3%; /* Position the name 3% from the bottom */
+    right: 10%; /* Position the name 2% from the right */
+    width: 50px; /* Set a fixed width */
+    height: 30px; /* Set a fixed height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+    font-size: 1rem; /* Adjust font size */
+    color: rgb(255, 255, 255);
+    font-weight: none; /**/
+    background-color: rgba(98, 116, 69, 0.568); /* Dark background to ensure readability */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+    padding: 5px; /* Optional: Adjust padding */
+    border: 2px solid rgb(36, 43, 25);
+    border-radius: 10px;
+    z-index: 1; /* Ensures the name appears above the image */
+    overflow: hidden; /* Prevents overflowing text */
+    text-overflow: ellipsis; /* Adds "..." if the text overflows */
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+  .image-container {
+    position: relative; /* Required to position name inside the container */
+    width: 80%; /* Keep this the same size as the image */
+    height: 80%; /* Full height of the slideshow container */
+  }
+
+
+}

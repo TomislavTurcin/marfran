@@ -1,0 +1,27 @@
+.linkedin-container {
+    justify-content: center; /* vodoravno centriranje slike u containeru */
+    align-items: center; /* okomito centriranje slike u containeru */
+  }
+  
+  .linkedin-image {
+    width: 50px; /* sirina slike */
+    height: 50px; /* visina slike */
+    border-radius: 20%; /* kod za zaokruzivanje kvadratnih elemenata */
+    transition: transform 0.3s ease; /* kod za elegantnu tranziciju povecanja slike */
+    border: 1px,solid,rgb(255, 255, 255);/*zelis li border oko ikone likedin*/
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  }
+  
+  .linkedin-image:hover {
+    transform: scale(1.1); /* povecanje slike prilikom hover */
+  }
+
+  /*za mobitel*/
+
+  /* Add this to Linkedin.css */
+@media (max-width: 768px) {
+  .linkedin-image {
+      width: 30px; /* Adjust icon size */
+      height: 30px;
+  }
+}
