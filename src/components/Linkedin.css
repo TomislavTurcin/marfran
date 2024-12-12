@@ -21,7 +21,7 @@
   /* Add this to Linkedin.css */
 @media (max-width: 768px) {
   .linkedin-image {
-      width: 30px; /* Adjust icon size */
-      height: 30px;
+      width: 34px; /* Adjust icon size */
+      height: 34px;
   }
 }

@@ -35,13 +35,13 @@ footer {
 }
 
 .App-header h1 {
-  font-size: 6rem; /* Makes the text larger */
+  font-size: 8rem; /* Makes the text larger */
   font-family: 'Goblin One', 'Notable';
   font-weight: bold;
   text-shadow: 10px 10px 10px rgba(0, 0, 0, 0); /* Bolder shadow */
   color: rgb(255, 255, 255);
   scroll-margin-top: 15vh;
-  margin: 7% 0 0 0;
+  margin: 6% 0 0 0;
   -webkit-text-stroke: 2px rgb(0, 0, 0); /* Border width and color */
   text-stroke: 2px black; /* Fallback for other browsers */
 }
@@ -64,7 +64,7 @@ section {
   transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth effect */
   background-color: transparent; /* No background initially */
   padding: 20px 10px;
-  width: 60%;
+  width: 70%;
   background-color: rgba(104, 104, 104, 0.014); /* Semi-transparent background for sections */
   margin-bottom: 20px;
   border-radius: 42px;
@@ -86,7 +86,7 @@ section h2 {
 }
 
 section p {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-family: 'Kalam';
   font-weight: 200;
   border-radius: 10px;
@@ -168,6 +168,7 @@ html, body {
   padding: 0; /* Remove default padding */
   overflow-x: hidden; /* Disable horizontal scrolling */
   width: 100%; /* Ensure the body takes up the full width */
+  scroll-behavior: smooth;
 }
 
 main {
@@ -194,7 +195,7 @@ main {
 
 
 /*dio koda za prilagodavanje stranice mobitelu*/
-/* Add this to App.css */
+
 @media (max-width: 768px) {
   .App-header h1 {
       font-size: 3rem;
@@ -207,11 +208,11 @@ main {
       width: 100%; /* Ensure images fit smaller widths */
   }
   section {
-      width: 90%; /* Shrink sections on smaller screens */
+    width: 70%; /* Shrink sections on smaller screens */
       padding: 10px;
   }
   #secimage {
-      width: 90%; /* Ensure image fits the screen */
+      width: 100%; /* Ensure image fits the screen */
       margin-top: 10px;
   }
   .button-57 {
@@ -243,7 +244,7 @@ main {
     transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth effect */
     background-color: transparent; /* No background initially */
     padding: 20px 10px;
-    width: 80%;
+    width: 85%;
     background-color: rgba(104, 104, 104, 0.014); /* Semi-transparent background for sections */
     margin-bottom: 20px;
     border-radius: 42px;
@@ -251,7 +252,7 @@ main {
   }
 
   section h2 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
     background-color: rgba(82, 82, 82, 0);
@@ -259,7 +260,7 @@ main {
   }
   
   section p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Kalam';
     font-weight: 200;
     border-radius: 10px;
@@ -269,13 +270,13 @@ main {
   }
 
   .App-header h1 {
-    font-size: 3rem; /* Makes the text larger */
+    font-size: 4rem; /* Makes the text larger */
     font-family: 'Goblin One', 'Notable';
     font-weight: bold;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0); /* Bolder shadow */
     color: rgb(255, 255, 255);
     scroll-margin-top: 15vh;
-    margin: 020% 0 0 0;
+    margin: 25% 0 0 0;
     -webkit-text-stroke: 2px rgb(0, 0, 0); /* Border width and color */
     text-stroke: 2px black; /* Fallback for other browsers */
 
@@ -341,6 +342,11 @@ main {
   display: flex;
   flex-direction: column;
   gap: 100px; /* Reduces space between child elements */
+}
+
+#secimage:hover {
+  transform: scale(1.2); /* Slightly enlarge the image */
+  box-shadow: 7px 7px 7px rgb(0, 0, 0); /* Make the shadow stronger on hover */
 }
 
 }

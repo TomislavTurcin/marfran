@@ -7,7 +7,7 @@ function Menu({ onLanguageToggle, isCroatian }) {
   return (
     <ul className="menu">
       <li>
-        <a href="#home" >MAR FRAN</a>
+        <a id='homee' href="#home" >MAR FRAN</a>
       </li>
       <li className="dropdown">
         <a href="#services" id='engtext'>Services</a>

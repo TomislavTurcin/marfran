@@ -70,13 +70,13 @@
     color: #000000; /* Change text color */
   }
 
-  a[href="#home"] {
+  #homee{
     color: rgb(255, 255, 255); /* Example: Change the text color to red */
     font-size: 2rem; /* Example: Increase the font size */
     text-decoration: underline; /* Example: Add underline */
   }
   
-  a[href="#home"]:hover{
+  #homee:hover{
     color:#ffffff
   }
   nav {
@@ -111,10 +111,17 @@
   .menu a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-left: 0px;
-    padding-top: 2px;
+    padding-top: 1px;
     
+  }
+
+  #homee {
+    color: rgb(255, 255, 255); /* Example: Change the text color to red */
+    font-size: 1.1rem; /* Example: Increase the font size */
+    text-decoration: underline; /* Example: Add underline */
+   
   }
 
   .dropdown-menu {
@@ -175,7 +182,7 @@
     max-width:max-content;
   }
     
-  a[href="#home"] {
+  #homee {
     color: rgb(255, 255, 255); /* Example: Change the text color to red */
     font-size: 1rem; /* Example: Increase the font size */
     text-decoration: underline; /* Example: Add underline */

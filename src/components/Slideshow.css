@@ -42,7 +42,7 @@
     bottom: 3%; /* Position the name 3% from the bottom */
     right: 10%; /* Position the name 2% from the right */
     width: 100px; /* Set a fixed width */
-    height: 50px; /* Set a fixed height */
+    height: 30px; /* Set a fixed height */
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Horizontally center the text */
     align-items: center; /* Vertically center the text */
@@ -79,7 +79,7 @@
     bottom: 3%; /* Position the name 3% from the bottom */
     right: 10%; /* Position the name 2% from the right */
     width: 50px; /* Set a fixed width */
-    height: 30px; /* Set a fixed height */
+    height: 20px; /* Set a fixed height */
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Horizontally center the text */
     align-items: center; /* Vertically center the text */
