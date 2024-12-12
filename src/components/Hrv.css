@@ -1,6 +1,6 @@
 .language-switcher {
     text-align: left;
-    margin-left:  52%;
+    margin-left:  50%;
 
   }
   
@@ -42,7 +42,6 @@
 
   .language-switcher button {
     padding:5px 5px;
-    font-size: 1rem;
     border: 2px,solid,black;
     background-color: #ffffff6e;
     color: white;

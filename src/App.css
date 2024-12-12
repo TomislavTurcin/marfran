@@ -3,6 +3,7 @@
   flex-direction: column; /* Stacks items vertically */
   text-align: center;
   min-height: 100vh;
+  width: auto;
   background-image: url('./drvogodovi.jpg');
   background-size: contain;
   background-position: center;
@@ -162,8 +163,11 @@ section p {
   text-align: center;
 }
 
-html {
-  scroll-behavior: smooth;
+html, body {
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  width: 100%; /* Ensure the body takes up the full width */
 }
 
 main {
